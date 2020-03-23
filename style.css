@@ -1,3 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: rgb(12, 12, 71);
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito';
+}
+h1 {
+    display: flex;
+}
+
 .rubber-letter {
     transition: 0.2s ease-in-out color;
 }
